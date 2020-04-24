@@ -1,3 +1,6 @@
+%% Add mex folder to path
+addpath mex;
+
 %% Make volume containing three overlapping balls
 V1 = false(100,100,100);
 V1(35,50,35) = true;
